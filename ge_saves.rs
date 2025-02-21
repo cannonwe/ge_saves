@@ -53,35 +53,35 @@ fn main() {
             "6" => {
                 let savefile = "Save/GOLDENEYE-B632BD9126165741A2D401370EA97C13/GOLDENEYE.eep"; 
                 handler(backup, savefile);
-            },
+                },
             "7" => {
                 let savefile = "Save/GOLDENEYE-078F9FFEB68B45DB41EA2CD70CBD42F2/GOLDENEYE.eep"; 
                 handler(backup, savefile);
-            },
+                },
             "8" => {
                 let savefile = "Save/GOLDENEYE-8462B5E86BEF179FC3703E1C6F255653/GOLDENEYE.eep"; 
                 handler("Save/Backup/TE/GOLDENEYE.eep", savefile);
-            },
+                },
             "9" => {
                 let savefile = "Save/GOLDENEYE-A2FCD8529FC93EC42BFC08CCA47D71A4/GOLDENEYE.eep"; 
                 handler(backup, savefile);
-            },
+                },
             "10" => {
                 let savefile = "Save/GoldenEye X-E03DA6B473C2FC27251F7BE960DE1018/GoldenEye X.eep"; 
                 handler("Save/Backup/GoldenEye X.eep", savefile);
-            },
+                },
             "11" => {
                 let savefile = "Save/GOLDFINGER-EC82FC8931C1F526E014BCC529411516/GOLDFINGER.eep"; 
                 handler("Save/Backup/GOLDFINGER.eep", savefile);
-            },
+                },
             "12" => {
                 let savefile = "Save/Perfect Dark-ECACDBDC93C3087627A775DCC16AEC7A/Perfect Dark.eep";
                 handler("Save/Backup/Perfect Dark.eep",savefile);
-            },
+                },
             "13" => {
                 let savefile = "Save/GOLDENEYE-19060E240FFEA605ED18356CF6B14A42/GOLDENEYE.eep";
                 handler(backup, savefile);
-            },
+                },
               _ => println!("Invalid input."),
         };
     }
