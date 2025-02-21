@@ -1,7 +1,7 @@
 # ge_saves
 Goldeneye Netplay Savefile Checker 
 
-Compiled binaries for Windows will be uploaded at a later time.  In the meantime, you can very easily compile it as standard rust.  It won't work unless it's in your Project 64 folder, where all the  bat files are.  
+Compiled binaries are provided, however you can very easily compile it as standard rust if you wish.  It won't work unless it's in your Project 64 folder, where all the bat files are.  
 
 Error handling has only been sparsely implemented thus far, so if you run the program in the wrong folder it will panic and close (harmless, but the saves won't be checked/fixed).  Error handling to be implemented soon.
 
